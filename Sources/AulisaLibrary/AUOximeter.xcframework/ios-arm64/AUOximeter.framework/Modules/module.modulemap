@@ -1,0 +1,11 @@
+framework module AUOximeter {
+  umbrella header "AUOximeter.h"
+
+  export *
+  module * { export * }
+}
+
+module AUOximeter.Swift {
+  header "AUOximeter-Swift.h"
+  requires objc
+}
