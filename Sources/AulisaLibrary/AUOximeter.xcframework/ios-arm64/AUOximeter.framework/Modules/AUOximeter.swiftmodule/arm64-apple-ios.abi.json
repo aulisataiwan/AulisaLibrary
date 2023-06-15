@@ -4206,6 +4206,242 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "AUProbeType",
+        "printedName": "AUProbeType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "None",
+            "printedName": "None",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AUOximeter.AUProbeType.Type) -> AUOximeter.AUProbeType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AUProbeType",
+                    "printedName": "AUOximeter.AUProbeType",
+                    "usr": "s:10AUOximeter11AUProbeTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AUOximeter.AUProbeType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AUProbeType",
+                        "printedName": "AUOximeter.AUProbeType",
+                        "usr": "s:10AUOximeter11AUProbeTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10AUOximeter11AUProbeTypeO4NoneyA2CmF",
+            "mangledName": "$s10AUOximeter11AUProbeTypeO4NoneyA2CmF",
+            "moduleName": "AUOximeter"
+          },
+          {
+            "kind": "Var",
+            "name": "Infant",
+            "printedName": "Infant",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AUOximeter.AUProbeType.Type) -> AUOximeter.AUProbeType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AUProbeType",
+                    "printedName": "AUOximeter.AUProbeType",
+                    "usr": "s:10AUOximeter11AUProbeTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AUOximeter.AUProbeType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AUProbeType",
+                        "printedName": "AUOximeter.AUProbeType",
+                        "usr": "s:10AUOximeter11AUProbeTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10AUOximeter11AUProbeTypeO6InfantyA2CmF",
+            "mangledName": "$s10AUOximeter11AUProbeTypeO6InfantyA2CmF",
+            "moduleName": "AUOximeter"
+          },
+          {
+            "kind": "Var",
+            "name": "Pediatric",
+            "printedName": "Pediatric",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AUOximeter.AUProbeType.Type) -> AUOximeter.AUProbeType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AUProbeType",
+                    "printedName": "AUOximeter.AUProbeType",
+                    "usr": "s:10AUOximeter11AUProbeTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AUOximeter.AUProbeType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AUProbeType",
+                        "printedName": "AUOximeter.AUProbeType",
+                        "usr": "s:10AUOximeter11AUProbeTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10AUOximeter11AUProbeTypeO9PediatricyA2CmF",
+            "mangledName": "$s10AUOximeter11AUProbeTypeO9PediatricyA2CmF",
+            "moduleName": "AUOximeter"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AUOximeter.AUProbeType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AUProbeType",
+                    "printedName": "AUOximeter.AUProbeType",
+                    "usr": "s:10AUOximeter11AUProbeTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10AUOximeter11AUProbeTypeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s10AUOximeter11AUProbeTypeO8rawValueACSgSi_tcfc",
+            "moduleName": "AUOximeter",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10AUOximeter11AUProbeTypeO8rawValueSivp",
+            "mangledName": "$s10AUOximeter11AUProbeTypeO8rawValueSivp",
+            "moduleName": "AUOximeter",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10AUOximeter11AUProbeTypeO8rawValueSivg",
+                "mangledName": "$s10AUOximeter11AUProbeTypeO8rawValueSivg",
+                "moduleName": "AUOximeter",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:10AUOximeter11AUProbeTypeO",
+        "mangledName": "$s10AUOximeter11AUProbeTypeO",
+        "moduleName": "AUOximeter",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -6205,6 +6441,7 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
+              "SetterAccess",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -6227,48 +6464,6 @@
                 "moduleName": "AUOximeter",
                 "implicit": true,
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10AUOximeter13AUThermometerC7versionSSvs",
-                "mangledName": "$s10AUOximeter13AUThermometerC7versionSSvs",
-                "moduleName": "AUOximeter",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10AUOximeter13AUThermometerC7versionSSvM",
-                "mangledName": "$s10AUOximeter13AUThermometerC7versionSSvM",
-                "moduleName": "AUOximeter",
-                "implicit": true,
-                "accessorKind": "_modify"
               }
             ]
           },
@@ -7219,6 +7414,7 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
+              "SetterAccess",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -7241,55 +7437,74 @@
                 "moduleName": "AUOximeter",
                 "implicit": true,
                 "accessorKind": "get"
-              },
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "probeType",
+            "printedName": "probeType",
+            "children": [
               {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "AUOximeter.AUProbeType?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "AUProbeType",
+                    "printedName": "AUOximeter.AUProbeType",
+                    "usr": "s:10AUOximeter11AUProbeTypeO"
                   }
                 ],
-                "declKind": "Accessor",
-                "usr": "s:10AUOximeterAAC7versionSSvs",
-                "mangledName": "$s10AUOximeterAAC7versionSSvs",
-                "moduleName": "AUOximeter",
-                "implicit": true,
-                "accessorKind": "set"
-              },
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10AUOximeterAAC9probeTypeAA07AUProbeC0OSgvp",
+            "mangledName": "$s10AUOximeterAAC9probeTypeAA07AUProbeC0OSgvp",
+            "moduleName": "AUOximeter",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
               {
                 "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
+                "name": "Get",
+                "printedName": "Get()",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "AUOximeter.AUProbeType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AUProbeType",
+                        "printedName": "AUOximeter.AUProbeType",
+                        "usr": "s:10AUOximeter11AUProbeTypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10AUOximeterAAC7versionSSvM",
-                "mangledName": "$s10AUOximeterAAC7versionSSvM",
+                "usr": "s:10AUOximeterAAC9probeTypeAA07AUProbeC0OSgvg",
+                "mangledName": "$s10AUOximeterAAC9probeTypeAA07AUProbeC0OSgvg",
                 "moduleName": "AUOximeter",
                 "implicit": true,
-                "accessorKind": "_modify"
+                "accessorKind": "get"
               }
             ]
           },
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(peripheral:macAddress:)",
+            "printedName": "init(peripheral:macAddress:probeType:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -7308,11 +7523,18 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AUProbeType",
+                "printedName": "AUOximeter.AUProbeType",
+                "hasDefaultArg": true,
+                "usr": "s:10AUOximeter11AUProbeTypeO"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:10AUOximeterAAC10peripheral10macAddressABSo12CBPeripheralC_SStcfc",
-            "mangledName": "$s10AUOximeterAAC10peripheral10macAddressABSo12CBPeripheralC_SStcfc",
+            "usr": "s:10AUOximeterAAC10peripheral10macAddress9probeTypeABSo12CBPeripheralC_SSAA07AUProbeF0Otcfc",
+            "mangledName": "$s10AUOximeterAAC10peripheral10macAddress9probeTypeABSo12CBPeripheralC_SSAA07AUProbeF0Otcfc",
             "moduleName": "AUOximeter",
             "declAttributes": [
               "AccessControl"
@@ -7389,18 +7611,51 @@
           },
           {
             "kind": "Function",
-            "name": "getOxi1001Info",
-            "printedName": "getOxi1001Info()",
+            "name": "setProbeType",
+            "printedName": "setProbeType(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AUProbeType",
+                "printedName": "AUOximeter.AUProbeType",
+                "usr": "s:10AUOximeter11AUProbeTypeO"
               }
             ],
             "declKind": "Func",
-            "usr": "s:10AUOximeterAAC14getOxi1001InfoyyF",
-            "mangledName": "$s10AUOximeterAAC14getOxi1001InfoyyF",
+            "usr": "s:10AUOximeterAAC12setProbeTypeyyAA07AUProbeD0OF",
+            "mangledName": "$s10AUOximeterAAC12setProbeTypeyyAA07AUProbeD0OF",
+            "moduleName": "AUOximeter",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getOxi1001Info",
+            "printedName": "getOxi1001Info(type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AUProbeType",
+                "printedName": "AUOximeter.AUProbeType",
+                "hasDefaultArg": true,
+                "usr": "s:10AUOximeter11AUProbeTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10AUOximeterAAC14getOxi1001Info4typeyAA11AUProbeTypeO_tF",
+            "mangledName": "$s10AUOximeterAAC14getOxi1001Info4typeyAA11AUProbeTypeO_tF",
             "moduleName": "AUOximeter",
             "declAttributes": [
               "AccessControl"
@@ -7421,6 +7676,46 @@
             "declKind": "Func",
             "usr": "s:10AUOximeterAAC15stopOxi1001InfoyyF",
             "mangledName": "$s10AUOximeterAAC15stopOxi1001InfoyyF",
+            "moduleName": "AUOximeter",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getRawData",
+            "printedName": "getRawData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10AUOximeterAAC10getRawDatayyF",
+            "mangledName": "$s10AUOximeterAAC10getRawDatayyF",
+            "moduleName": "AUOximeter",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopRawData",
+            "printedName": "stopRawData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10AUOximeterAAC11stopRawDatayyF",
+            "mangledName": "$s10AUOximeterAAC11stopRawDatayyF",
             "moduleName": "AUOximeter",
             "declAttributes": [
               "AccessControl"
@@ -9408,6 +9703,69 @@
       "value": "2"
     },
     {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 741,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 752,
+      "length": 6,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 768,
+      "length": 9,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 741,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 752,
+      "length": 6,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 768,
+      "length": 9,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 741,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 752,
+      "length": 6,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 768,
+      "length": 9,
+      "value": "2"
+    },
+    {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "IntegerLiteral",
       "offset": 231,
@@ -10012,7 +10370,7 @@
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "StringLiteral",
-      "offset": 723,
+      "offset": 740,
       "length": 2,
       "value": "\"\""
     },
@@ -10026,770 +10384,770 @@
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 1928,
+      "offset": 1945,
       "length": 4,
       "value": "0xAA"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 1980,
+      "offset": 1997,
       "length": 4,
       "value": "0x55"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 2032,
+      "offset": 2049,
       "length": 4,
       "value": "0x21"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 2084,
+      "offset": 2101,
       "length": 4,
       "value": "0x22"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 2136,
+      "offset": 2153,
       "length": 4,
       "value": "0x26"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "Array",
-      "offset": 2337,
+      "offset": 2354,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "Array",
-      "offset": 2387,
+      "offset": 2404,
       "length": 42,
       "value": "[0x34, 0xfa, 0x7d, 0x2f, 0x7e, 0xd7, 0xac, 0x52]"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "BooleanLiteral",
-      "offset": 2772,
+      "offset": 2789,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "BooleanLiteral",
-      "offset": 4184,
+      "offset": 4201,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 4792,
+      "offset": 4809,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 4899,
+      "offset": 4916,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 5109,
+      "offset": 5126,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 5152,
+      "offset": 5169,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 5158,
+      "offset": 5175,
       "length": 4,
       "value": "0x55"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 5291,
+      "offset": 5308,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 5297,
+      "offset": 5314,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 5419,
+      "offset": 5436,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 5548,
+      "offset": 5565,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "StringLiteral",
-      "offset": 1824,
+      "offset": 1841,
       "length": 17,
       "value": "\"AUOximeter.AUTempSubDelegate\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 6214,
+      "offset": 6231,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 6250,
+      "offset": 6267,
       "length": 1,
       "value": "3"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6290,
-      "length": 1,
-      "value": "1"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
       "offset": 6307,
       "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6324,
+      "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 6474,
+      "offset": 6491,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 7049,
+      "offset": 7066,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 7085,
+      "offset": 7102,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 7116,
+      "offset": 7133,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 7173,
+      "offset": 7190,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 7680,
+      "offset": 7697,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 7706,
+      "offset": 7723,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "StringLiteral",
-      "offset": 7846,
+      "offset": 7863,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 7866,
+      "offset": 7883,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 7872,
+      "offset": 7889,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "StringLiteral",
-      "offset": 7899,
+      "offset": 7916,
       "length": 58,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 7911,
+      "offset": 7928,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 7915,
+      "offset": 7932,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "StringLiteral",
-      "offset": 7918,
+      "offset": 7935,
       "length": 1,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 7930,
+      "offset": 7947,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 7934,
+      "offset": 7951,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "StringLiteral",
-      "offset": 7937,
+      "offset": 7954,
       "length": 1,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 7949,
+      "offset": 7966,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 7953,
+      "offset": 7970,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "StringLiteral",
-      "offset": 7956,
+      "offset": 7973,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "StringLiteral",
-      "offset": 7997,
+      "offset": 8014,
       "length": 49,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 8009,
+      "offset": 8026,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "StringLiteral",
-      "offset": 8013,
+      "offset": 8030,
       "length": 1,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 8025,
+      "offset": 8042,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "StringLiteral",
-      "offset": 8029,
+      "offset": 8046,
       "length": 1,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 8041,
+      "offset": 8058,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "StringLiteral",
-      "offset": 8045,
+      "offset": 8062,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "Array",
-      "offset": 8507,
+      "offset": 8524,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 8666,
+      "offset": 8683,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 9385,
+      "offset": 9402,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 9452,
+      "offset": 9469,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 9528,
+      "offset": 9545,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 9602,
+      "offset": 9619,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 9694,
+      "offset": 9711,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 9760,
+      "offset": 9777,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 9838,
+      "offset": 9855,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 9912,
+      "offset": 9929,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "BooleanLiteral",
-      "offset": 9969,
+      "offset": 9986,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 10487,
+      "offset": 10504,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 10554,
+      "offset": 10571,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 10780,
+      "offset": 10797,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 11278,
+      "offset": 11295,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 11289,
+      "offset": 11306,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 11315,
+      "offset": 11332,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 11361,
+      "offset": 11378,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 11407,
+      "offset": 11424,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 11412,
+      "offset": 11429,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 11431,
+      "offset": 11448,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 11481,
+      "offset": 11498,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 11780,
+      "offset": 11797,
       "length": 6,
       "value": "0xFFFF"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 11899,
+      "offset": 11916,
       "length": 6,
       "value": "0xFFFF"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 12216,
+      "offset": 12233,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12227,
-      "length": 1,
-      "value": "8"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
       "offset": 12244,
       "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12261,
+      "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 12291,
+      "offset": 12308,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 12339,
+      "offset": 12356,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 12345,
+      "offset": 12362,
       "length": 4,
       "value": "0x04"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 12364,
+      "offset": 12381,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 12401,
+      "offset": 12418,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 12421,
+      "offset": 12438,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 12458,
+      "offset": 12475,
       "length": 6,
       "value": "0xFF00"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12469,
-      "length": 1,
-      "value": "8"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
       "offset": 12486,
       "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12503,
+      "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 12523,
+      "offset": 12540,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 12543,
+      "offset": 12560,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 12580,
+      "offset": 12597,
       "length": 6,
       "value": "0xFF00"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 12591,
+      "offset": 12608,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 12608,
+      "offset": 12625,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 12854,
+      "offset": 12871,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12865,
-      "length": 1,
-      "value": "4"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
       "offset": 12882,
       "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12899,
+      "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 12928,
+      "offset": 12945,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 12977,
+      "offset": 12994,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 12982,
+      "offset": 12999,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 13001,
+      "offset": 13018,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 13163,
+      "offset": 13180,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 13174,
+      "offset": 13191,
       "length": 13,
       "value": "1"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 13197,
+      "offset": 13214,
       "length": 21,
       "value": "2"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 13228,
+      "offset": 13245,
       "length": 11,
       "value": "3"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 13163,
+      "offset": 13180,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 13174,
+      "offset": 13191,
       "length": 13,
       "value": "1"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 13197,
+      "offset": 13214,
       "length": 21,
       "value": "2"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 13228,
+      "offset": 13245,
       "length": 11,
       "value": "3"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 13163,
+      "offset": 13180,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 13174,
+      "offset": 13191,
       "length": 13,
       "value": "1"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 13197,
+      "offset": 13214,
       "length": 21,
       "value": "2"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUThermometer.swift",
       "kind": "IntegerLiteral",
-      "offset": 13228,
+      "offset": 13245,
       "length": 11,
       "value": "3"
     },
@@ -10817,14 +11175,14 @@
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "StringLiteral",
-      "offset": 780,
+      "offset": 797,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "BooleanLiteral",
-      "offset": 1645,
+      "offset": 1784,
       "length": 5,
       "value": "false"
     },
@@ -10838,1547 +11196,1372 @@
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 2320,
+      "offset": 2847,
       "length": 4,
       "value": "0xAA"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 2372,
+      "offset": 2899,
       "length": 4,
       "value": "0x55"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 2424,
+      "offset": 2951,
       "length": 4,
       "value": "0x11"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 2476,
+      "offset": 3003,
       "length": 4,
       "value": "0x12"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 2528,
+      "offset": 3055,
       "length": 4,
       "value": "0x13"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 2580,
+      "offset": 3107,
       "length": 4,
       "value": "0x16"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 2632,
+      "offset": 3159,
       "length": 4,
       "value": "0x17"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 2684,
+      "offset": 3211,
+      "length": 4,
+      "value": "0x18"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3263,
+      "length": 4,
+      "value": "0x1A"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3315,
       "length": 4,
       "value": "0x33"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "Array",
-      "offset": 2878,
+      "offset": 3509,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "Array",
-      "offset": 2929,
+      "offset": 3560,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 2964,
+      "offset": 3595,
       "length": 3,
       "value": "212"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "Array",
-      "offset": 3021,
+      "offset": 3652,
       "length": 42,
       "value": "[0x34, 0xfa, 0x7d, 0x2f, 0x7e, 0xd7, 0xac, 0x52]"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "BooleanLiteral",
-      "offset": 3398,
+      "offset": 4029,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "BooleanLiteral",
-      "offset": 4897,
+      "offset": 5528,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 5664,
+      "offset": 6295,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 5911,
+      "offset": 6542,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 6096,
+      "offset": 6727,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 6139,
+      "offset": 6770,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 6145,
+      "offset": 6776,
       "length": 4,
       "value": "0x55"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 6278,
+      "offset": 6909,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 6284,
+      "offset": 6915,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 6406,
+      "offset": 7037,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "Array",
-      "offset": 6502,
+      "offset": 7133,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 6543,
+      "offset": 7174,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "StringLiteral",
-      "offset": 2217,
+      "offset": 2744,
       "length": 16,
       "value": "\"AUOximeter.AUOxiSubDelegate\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "BooleanLiteral",
-      "offset": 7449,
+      "offset": 8379,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 7500,
+      "offset": 8430,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 7520,
+      "offset": 8450,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 7540,
+      "offset": 8470,
       "length": 3,
       "value": "180"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 7561,
+      "offset": 8491,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "BooleanLiteral",
-      "offset": 7629,
+      "offset": 8559,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 7672,
+      "offset": 8602,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 7697,
+      "offset": 8627,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 7707,
+      "offset": 8637,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 7713,
+      "offset": 8643,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 7723,
+      "offset": 8653,
       "length": 4,
       "value": "0x55"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 7750,
+      "offset": 8680,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 7760,
+      "offset": 8690,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 7766,
+      "offset": 8696,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 7776,
+      "offset": 8706,
       "length": 4,
       "value": "0x11"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 7817,
+      "offset": 8747,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "BooleanLiteral",
-      "offset": 7884,
+      "offset": 8814,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 7943,
+      "offset": 8873,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 7964,
+      "offset": 8894,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "BooleanLiteral",
-      "offset": 8032,
+      "offset": 8962,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 8091,
+      "offset": 9021,
       "length": 3,
       "value": "180"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 8112,
+      "offset": 9042,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 8132,
+      "offset": 9062,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "BooleanLiteral",
-      "offset": 8200,
+      "offset": 9130,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "BooleanLiteral",
-      "offset": 8339,
+      "offset": 9269,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "Array",
-      "offset": 8439,
+      "offset": 9369,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "BooleanLiteral",
-      "offset": 8506,
+      "offset": 9436,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 8571,
+      "offset": 9501,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 8626,
+      "offset": 9556,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 8636,
+      "offset": 9566,
       "length": 3,
       "value": "108"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 8668,
+      "offset": 9598,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 8678,
+      "offset": 9608,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 8684,
+      "offset": 9614,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 8694,
+      "offset": 9624,
       "length": 4,
       "value": "0x55"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "Array",
-      "offset": 8727,
+      "offset": 9657,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "BooleanLiteral",
-      "offset": 8793,
+      "offset": 9723,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 8830,
+      "offset": 9760,
       "length": 4,
       "value": "0x55"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 8871,
+      "offset": 9801,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 8881,
+      "offset": 9811,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 8887,
+      "offset": 9817,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 8897,
+      "offset": 9827,
       "length": 4,
       "value": "0x18"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "Array",
-      "offset": 8930,
+      "offset": 9860,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "BooleanLiteral",
-      "offset": 8996,
+      "offset": 9926,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 9033,
+      "offset": 9963,
       "length": 4,
       "value": "0x18"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 9074,
+      "offset": 10004,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 9084,
+      "offset": 10014,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 9090,
+      "offset": 10020,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 9100,
+      "offset": 10030,
       "length": 4,
       "value": "0xD0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "Array",
-      "offset": 9133,
+      "offset": 10063,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "BooleanLiteral",
-      "offset": 9199,
+      "offset": 10129,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 9236,
+      "offset": 10166,
       "length": 4,
       "value": "0xD0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 9268,
+      "offset": 10198,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 9286,
+      "offset": 10216,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 9408,
+      "offset": 10338,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 9411,
+      "offset": 10341,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 9422,
+      "offset": 10352,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 9427,
+      "offset": 10357,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 9432,
+      "offset": 10362,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 9445,
+      "offset": 10375,
       "length": 4,
       "value": "0xff"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 9461,
+      "offset": 10391,
       "length": 4,
       "value": "0xff"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 9470,
+      "offset": 10400,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 9510,
+      "offset": 10440,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 9514,
+      "offset": 10444,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 9553,
+      "offset": 10483,
       "length": 3,
       "value": "203"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 9568,
+      "offset": 10498,
       "length": 3,
       "value": "203"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 9641,
+      "offset": 10571,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 9728,
+      "offset": 10658,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 9753,
+      "offset": 10683,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "Array",
-      "offset": 9797,
+      "offset": 10727,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "BooleanLiteral",
-      "offset": 9863,
+      "offset": 10793,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 9906,
+      "offset": 10836,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 10004,
+      "offset": 10934,
       "length": 6,
       "value": "0xFFFF"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "Array",
-      "offset": 10235,
+      "offset": 11165,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "BooleanLiteral",
-      "offset": 10254,
+      "offset": 11184,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 10453,
+      "offset": 11383,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 10489,
+      "offset": 11419,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 10529,
+      "offset": 11459,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 10546,
+      "offset": 11476,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 10751,
+      "offset": 11681,
       "length": 2,
       "value": "11"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 11511,
+      "offset": 12441,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 11547,
+      "offset": 12477,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 11578,
+      "offset": 12508,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 11635,
+      "offset": 12565,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 11947,
+      "offset": 12877,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 11977,
+      "offset": 12907,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 12830,
+      "offset": 13760,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 12856,
+      "offset": 13786,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "StringLiteral",
-      "offset": 12996,
+      "offset": 13926,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 13016,
+      "offset": 13946,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 13022,
+      "offset": 13952,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "StringLiteral",
-      "offset": 13049,
+      "offset": 13979,
       "length": 58,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 13061,
+      "offset": 13991,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 13065,
+      "offset": 13995,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "StringLiteral",
-      "offset": 13068,
+      "offset": 13998,
       "length": 1,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 13080,
+      "offset": 14010,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 13084,
+      "offset": 14014,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "StringLiteral",
-      "offset": 13087,
+      "offset": 14017,
       "length": 1,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 13099,
+      "offset": 14029,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 13103,
+      "offset": 14033,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "StringLiteral",
-      "offset": 13106,
+      "offset": 14036,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "StringLiteral",
-      "offset": 13147,
+      "offset": 14077,
       "length": 49,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 13159,
+      "offset": 14089,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "StringLiteral",
-      "offset": 13163,
+      "offset": 14093,
       "length": 1,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 13175,
+      "offset": 14105,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "StringLiteral",
-      "offset": 13179,
+      "offset": 14109,
       "length": 1,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 13191,
+      "offset": 14121,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "StringLiteral",
-      "offset": 13195,
+      "offset": 14125,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 13448,
+      "offset": 14378,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 13484,
+      "offset": 14414,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 13515,
+      "offset": 14445,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 13572,
+      "offset": 14502,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14777,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14813,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14844,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14901,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "Array",
-      "offset": 14051,
+      "offset": 15383,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "StringLiteral",
-      "offset": 14068,
-      "length": 25,
-      "value": "\"writeCmd : \""
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "StringLiteral",
-      "offset": 14092,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 14203,
+      "offset": 15537,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 14296,
+      "offset": 15626,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 14385,
+      "offset": 15715,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15305,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15481,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15509,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15513,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15700,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15808,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15875,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15951,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16025,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16116,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16182,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16259,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16333,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "BooleanLiteral",
-      "offset": 16390,
+      "offset": 16380,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16895,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 17100,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 17128,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 17132,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 17319,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 17427,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 17494,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 17575,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 17647,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 17721,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 18207,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 18274,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 18351,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 18425,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "BooleanLiteral",
-      "offset": 18469,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 18674,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 18678,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 18804,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 18848,
+      "offset": 16479,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 19098,
+      "offset": 16962,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 19165,
+      "offset": 17138,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 19494,
+      "offset": 17166,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 19561,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 19842,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 20005,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 20534,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 20545,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 20571,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 20616,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 20661,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 20666,
-      "length": 4,
-      "value": "0x01"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 20685,
+      "offset": 17170,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 20735,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 20979,
-      "length": 4,
-      "value": "0xFF"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 21048,
-      "length": 4,
-      "value": "0xFF"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 21115,
-      "length": 6,
-      "value": "0xFFFF"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 21186,
-      "length": 6,
-      "value": "0xFFFF"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 21575,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 21586,
-      "length": 2,
-      "value": "11"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 21604,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 21650,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 21697,
+      "offset": 17357,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 21703,
-      "length": 4,
-      "value": "0x07"
+      "offset": 17465,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 21722,
+      "offset": 17532,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17608,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17682,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17773,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17839,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17916,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17990,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18047,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18552,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18757,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18785,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18789,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 21728,
-      "length": 4,
-      "value": "0x00"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 21754,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 21802,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 21851,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 21886,
-      "length": 4,
-      "value": "0xFF"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 21906,
-      "length": 1,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 21941,
-      "length": 6,
-      "value": "0xFF00"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 21952,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 21969,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 22004,
-      "length": 4,
-      "value": "0xFF"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 22024,
-      "length": 1,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 22059,
-      "length": 6,
-      "value": "0xFF00"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 22070,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 22087,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 22345,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 22356,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 22373,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 22418,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 22464,
+      "offset": 18976,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 22469,
-      "length": 4,
-      "value": "0x00"
+      "offset": 19084,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 22488,
+      "offset": 19151,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19232,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19304,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19378,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19852,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20047,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20075,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20079,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20269,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20422,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20499,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20573,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20617,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20822,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20826,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20948,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20992,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21242,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21309,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21623,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21818,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21846,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21850,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22040,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22309,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22501,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22529,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22533,
       "length": 1,
       "value": "3"
     },
@@ -12387,448 +12570,980 @@
       "kind": "IntegerLiteral",
       "offset": 22720,
       "length": 1,
-      "value": "0"
+      "value": "2"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 22731,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 22748,
+      "offset": 22991,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 22793,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 22841,
+      "offset": 23184,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 22846,
-      "length": 4,
-      "value": "0x00"
+      "offset": 23212,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 22865,
+      "offset": 23216,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 23100,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 23111,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 23128,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 23173,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 23219,
+      "offset": 23404,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 23224,
-      "length": 4,
-      "value": "0x00"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 23243,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 23443,
+      "offset": 23689,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 23454,
+      "offset": 23756,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24037,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24200,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24729,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24740,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24766,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24811,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24856,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24861,
+      "length": 4,
+      "value": "0x01"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24880,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24930,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25174,
+      "length": 4,
+      "value": "0xFF"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25243,
+      "length": 4,
+      "value": "0xFF"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25310,
+      "length": 6,
+      "value": "0xFFFF"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25381,
+      "length": 6,
+      "value": "0xFFFF"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25770,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25781,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25799,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25845,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25892,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25898,
+      "length": 4,
+      "value": "0x07"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25917,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25923,
+      "length": 4,
+      "value": "0x00"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25949,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25997,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26046,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26081,
+      "length": 4,
+      "value": "0xFF"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26101,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26136,
+      "length": 6,
+      "value": "0xFF00"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26147,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26164,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26199,
+      "length": 4,
+      "value": "0xFF"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26219,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26254,
+      "length": 6,
+      "value": "0xFF00"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26265,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26282,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 23472,
+      "offset": 26540,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 23517,
+      "offset": 26551,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26568,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26613,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 23561,
+      "offset": 26659,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 23566,
+      "offset": 26664,
+      "length": 4,
+      "value": "0x00"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26683,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26915,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26926,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26943,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26988,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 27036,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 27041,
+      "length": 4,
+      "value": "0x00"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 27060,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 27295,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 27306,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 27323,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 27368,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 27414,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 27419,
+      "length": 4,
+      "value": "0x00"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 27438,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 27638,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 27649,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 27667,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 27712,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 27756,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 27761,
       "length": 4,
       "value": "0x06"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 23632,
+      "offset": 27827,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 23670,
+      "offset": 27865,
       "length": 4,
       "value": "2000"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 23678,
+      "offset": 27873,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 23698,
+      "offset": 27893,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 23737,
+      "offset": 27932,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 23757,
+      "offset": 27952,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 23794,
+      "offset": 27989,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 23814,
+      "offset": 28009,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 23852,
+      "offset": 28047,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 23872,
+      "offset": 28067,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 23912,
+      "offset": 28107,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 23932,
+      "offset": 28127,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 23972,
+      "offset": 28167,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 23992,
+      "offset": 28187,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 24145,
+      "offset": 28408,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 24156,
-      "length": 12,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 24178,
-      "length": 17,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 24205,
-      "length": 20,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 24235,
-      "length": 20,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 24265,
-      "length": 7,
+      "offset": 28419,
+      "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 24282,
-      "length": 13,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 24305,
-      "length": 10,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 24325,
-      "length": 11,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 24346,
-      "length": 7,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 24145,
+      "offset": 28436,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 24156,
-      "length": 12,
+      "offset": 28481,
+      "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 24178,
-      "length": 17,
+      "offset": 28528,
+      "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 24205,
-      "length": 20,
+      "offset": 28533,
+      "length": 4,
+      "value": "0x01"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 28552,
+      "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 24235,
-      "length": 20,
-      "value": "4"
+      "offset": 28578,
+      "length": 1,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 24265,
-      "length": 7,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 24282,
-      "length": 13,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 24305,
-      "length": 10,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 24325,
-      "length": 11,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 24346,
-      "length": 7,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 24145,
+      "offset": 28582,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 24156,
+      "offset": 28598,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 28813,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 28824,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 28841,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 28886,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 28930,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 28935,
+      "length": 4,
+      "value": "0x01"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 28954,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 28971,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 28975,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 28991,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29144,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29155,
       "length": 12,
       "value": "1"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 24178,
-      "length": 17,
+      "offset": 29177,
+      "length": 13,
       "value": "2"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 24205,
+      "offset": 29200,
       "length": 20,
       "value": "3"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 24235,
+      "offset": 29230,
       "length": 20,
       "value": "4"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 24265,
+      "offset": 29260,
       "length": 7,
       "value": "5"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 24282,
-      "length": 13,
+      "offset": 29277,
+      "length": 8,
       "value": "6"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 24305,
-      "length": 10,
+      "offset": 29295,
+      "length": 13,
       "value": "7"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 24325,
-      "length": 11,
+      "offset": 29318,
+      "length": 10,
       "value": "8"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
       "kind": "IntegerLiteral",
-      "offset": 24346,
-      "length": 7,
+      "offset": 29338,
+      "length": 11,
       "value": "9"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29359,
+      "length": 7,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29376,
+      "length": 10,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29144,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29155,
+      "length": 12,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29177,
+      "length": 13,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29200,
+      "length": 20,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29230,
+      "length": 20,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29260,
+      "length": 7,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29277,
+      "length": 8,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29295,
+      "length": 13,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29318,
+      "length": 10,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29338,
+      "length": 11,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29359,
+      "length": 7,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29376,
+      "length": 10,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29144,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29155,
+      "length": 12,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29177,
+      "length": 13,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29200,
+      "length": 20,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29230,
+      "length": 20,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29260,
+      "length": 7,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29277,
+      "length": 8,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29295,
+      "length": 13,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29318,
+      "length": 10,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29338,
+      "length": 11,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29359,
+      "length": 7,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUOximeter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29376,
+      "length": 10,
+      "value": "11"
     }
   ]
 }
