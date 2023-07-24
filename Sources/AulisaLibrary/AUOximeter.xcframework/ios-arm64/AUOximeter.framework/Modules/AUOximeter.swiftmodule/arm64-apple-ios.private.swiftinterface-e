@@ -22,7 +22,7 @@ public class AUOximeterData {
   public var motionCount: Swift.Int {
     get
   }
-  public var batteryStatus: BatteryStatus {
+  public var batteryStatus: AUOximeter.BatteryStatus {
     get
   }
   public var systemState: Swift.Int {
@@ -63,32 +63,32 @@ public class AUOximeterData {
   @objc deinit
 }
 public class AUOximeterAlarmLimit : Swift.Equatable {
-  public static func == (lhs: AUOximeterAlarmLimit, rhs: AUOximeterAlarmLimit) -> Swift.Bool
+  public static func == (lhs: AUOximeter.AUOximeterAlarmLimit, rhs: AUOximeter.AUOximeterAlarmLimit) -> Swift.Bool
   public var spo2High: Swift.Int?
   public var spo2Low: Swift.Int?
   public var prHigh: Swift.Int?
   public var prLow: Swift.Int?
-  public var sensorType: AUSensorType
-  public init(sensorType: AUSensorType)
+  public var sensorType: AUOximeter.AUSensorType
+  public init(sensorType: AUOximeter.AUSensorType)
   public func isAlarmMute() -> Swift.Bool
-  public static func set(rawData: [Swift.CUnsignedChar], macAddress: Swift.String) -> AUOximeterAlarmLimit?
+  public static func set(rawData: [Swift.CUnsignedChar], macAddress: Swift.String) -> AUOximeter.AUOximeterAlarmLimit?
   @objc deinit
 }
-extension AUOximeterAlarmLimit {
+extension AUOximeter.AUOximeterAlarmLimit {
   public static let DEFAULT_SPO2_MAX: Swift.Int
   public static let DEFAULT_SPO2_MIN: Swift.Int
-  public static func DEFAULT_PR_MAX(sensorType: AUSensorType) -> Swift.Int
-  public static func DEFAULT_PR_MIN(sensorType: AUSensorType) -> Swift.Int
+  public static func DEFAULT_PR_MAX(sensorType: AUOximeter.AUSensorType) -> Swift.Int
+  public static func DEFAULT_PR_MIN(sensorType: AUOximeter.AUSensorType) -> Swift.Int
   public static let DEFAULT_SPO2_MAX_HI: Swift.Int
   public static let DEFAULT_SPO2_MAX_LO: Swift.Int
   public static let DEFAULT_SPO2_MIN_HI: Swift.Int
   public static let DEFAULT_SPO2_MIN_LO: Swift.Int
-  public static func DEFAULT_PR_MAX_HI(sensorType: AUSensorType) -> Swift.Int
+  public static func DEFAULT_PR_MAX_HI(sensorType: AUOximeter.AUSensorType) -> Swift.Int
   public static let DEFAULT_PR_MAX_LO: Swift.Int
-  public static func DEFAULT_PR_MIN_HI(sensorType: AUSensorType) -> Swift.Int
+  public static func DEFAULT_PR_MIN_HI(sensorType: AUOximeter.AUSensorType) -> Swift.Int
   public static let DEFAULT_PR_MIN_LO: Swift.Int
-  public static func defaultAlarm(sensorType: AUSensorType) -> AUOximeterAlarmLimit
-  public static func stringToAlarmLimit(_ alarmString: Swift.String) -> AUOximeterAlarmLimit?
+  public static func defaultAlarm(sensorType: AUOximeter.AUSensorType) -> AUOximeter.AUOximeterAlarmLimit
+  public static func stringToAlarmLimit(_ alarmString: Swift.String) -> AUOximeter.AUOximeterAlarmLimit?
 }
 public class AUOximeterRawData {
   public static let WAVE_FORM_RED: Swift.Int
@@ -106,8 +106,8 @@ public class AUOximeterRawData {
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class AUDevice : ObjectiveC.NSObject {
-  public static func macAddressToSMType(macAddress: Swift.String) -> AUSensorType
-  public static func macAddressToSMGeneration(macAddress: Swift.String) -> AUSensorGeneration
+  public static func macAddressToSMType(macAddress: Swift.String) -> AUOximeter.AUSensorType
+  public static func macAddressToSMGeneration(macAddress: Swift.String) -> AUOximeter.AUSensorGeneration
   @objc override dynamic public init()
   @objc deinit
 }
@@ -129,7 +129,7 @@ public enum SystemStatus {
   case On
   case Init
   case Sleep
-  public static func == (a: SystemStatus, b: SystemStatus) -> Swift.Bool
+  public static func == (a: AUOximeter.SystemStatus, b: AUOximeter.SystemStatus) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
@@ -188,7 +188,7 @@ public class AUTemperatureData {
   public var temperature: Swift.Double {
     get
   }
-  public var batteryStatus: BatteryStatus {
+  public var batteryStatus: AUOximeter.BatteryStatus {
     get
   }
   public var systemState: Swift.Int {
@@ -223,22 +223,22 @@ public class AUTemperatureAlarmLimit {
   public func isAlarmMute() -> Swift.Bool
   @objc deinit
 }
-extension AUTemperatureAlarmLimit {
-  public static func DEFAULT_TEMP_MAX(type: AUSensorType) -> Swift.Double
-  public static func DEFAULT_TEMP_MIN(type: AUSensorType) -> Swift.Double
+extension AUOximeter.AUTemperatureAlarmLimit {
+  public static func DEFAULT_TEMP_MAX(type: AUOximeter.AUSensorType) -> Swift.Double
+  public static func DEFAULT_TEMP_MIN(type: AUOximeter.AUSensorType) -> Swift.Double
   public static let DEFAULT_TEMP_MAX_HI: Swift.Double
   public static let DEFAULT_TEMP_MAX_LO: Swift.Double
   public static let DEFAULT_TEMP_MIN_HI: Swift.Double
   public static let DEFAULT_TEMP_MIN_LO: Swift.Double
-  public static func defaultAlarm(sensorType: AUSensorType) -> AUTemperatureAlarmLimit
+  public static func defaultAlarm(sensorType: AUOximeter.AUSensorType) -> AUOximeter.AUTemperatureAlarmLimit
 }
-extension AUTemperatureAlarmLimit {
-  public func eqauls(_ newAlarm: AUTemperatureAlarmLimit) -> Swift.Bool
+extension AUOximeter.AUTemperatureAlarmLimit {
+  public func eqauls(_ newAlarm: AUOximeter.AUTemperatureAlarmLimit) -> Swift.Bool
 }
-extension AUTemperatureAlarmLimit {
-  public static func stringToAlarmLimit(_ alarmString: Swift.String) -> AUTemperatureAlarmLimit?
+extension AUOximeter.AUTemperatureAlarmLimit {
+  public static func stringToAlarmLimit(_ alarmString: Swift.String) -> AUOximeter.AUTemperatureAlarmLimit?
 }
-@objc public class AUThermometer : AUDevice {
+@objc public class AUThermometer : AUOximeter.AUDevice {
   public static let UUID_S_Aulisa: Swift.String
   public static let UUID_C_Write: Swift.String
   public static let UUID_C_Notify: Swift.String
@@ -248,26 +248,26 @@ extension AUTemperatureAlarmLimit {
   public var pheripheral: CoreBluetooth.CBPeripheral? {
     get
   }
-  public var alarmLimit: AUTemperatureAlarmLimit! {
+  public var alarmLimit: AUOximeter.AUTemperatureAlarmLimit! {
     get
   }
-  public var delegate: (any AUThermometerDataDelegate)?
+  public var delegate: (any AUOximeter.AUThermometerDataDelegate)?
   public var version: Swift.String {
     get
   }
   public init(peripheral: CoreBluetooth.CBPeripheral, macAddress: Swift.String)
   @objc deinit
   public func isConnected() -> Swift.Bool
-  public func setAlarmLimit(alarmLimit: AUTemperatureAlarmLimit)
-  public func currentData() -> AUTemperatureData?
+  public func setAlarmLimit(alarmLimit: AUOximeter.AUTemperatureAlarmLimit)
+  public func currentData() -> AUOximeter.AUTemperatureData?
   public func setScale(_ scale: Swift.Int)
 }
 public protocol AUThermometerDataDelegate {
-  func didSMConnect(device: AUThermometer)
-  func notifyInfo(device: AUThermometer, info: AUTemperatureData)
-  func notifyAlarmLimit(device: AUThermometer, alarmLimit: AUTemperatureAlarmLimit)
+  func didSMConnect(device: AUOximeter.AUThermometer)
+  func notifyInfo(device: AUOximeter.AUThermometer, info: AUOximeter.AUTemperatureData)
+  func notifyAlarmLimit(device: AUOximeter.AUThermometer, alarmLimit: AUOximeter.AUTemperatureAlarmLimit)
 }
-@objc public class AUOximeter : AUDevice {
+@objc public class AUOximeter : AUOximeter.AUDevice {
   public static let UUID_S_Aulisa: Swift.String
   public static let UUID_C_Write: Swift.String
   public static let UUID_C_Notify: Swift.String
@@ -277,55 +277,55 @@ public protocol AUThermometerDataDelegate {
   public var pheripheral: CoreBluetooth.CBPeripheral? {
     get
   }
-  public var alarmLimit: AUOximeterAlarmLimit! {
+  public var alarmLimit: AUOximeter.AUOximeterAlarmLimit! {
     get
   }
-  public var sensorType: AUSensorType! {
+  public var sensorType: AUOximeter.AUSensorType! {
     get
   }
-  public var sensorGeneration: AUSensorGeneration! {
+  public var sensorGeneration: AUOximeter.AUSensorGeneration! {
     get
   }
-  public var delegate: (any AUOximeterDataDelegate)?
+  public var delegate: (any AUOximeter.AUOximeterDataDelegate)?
   public var version: Swift.String {
     get
   }
-  public var probeType: AUProbeType! {
+  public var probeType: AUOximeter.AUProbeType! {
     get
   }
-  public init(peripheral: CoreBluetooth.CBPeripheral, macAddress: Swift.String, probeType: AUProbeType = .None)
+  public init(peripheral: CoreBluetooth.CBPeripheral, macAddress: Swift.String, probeType: AUOximeter.AUProbeType = .None)
   @objc deinit
   public func isConnected() -> Swift.Bool
   public func isPowerOff() -> Swift.Bool
-  public func setAlarmLimit(alarmLimit: AUOximeterAlarmLimit)
-  public func setProbeType(_ type: AUProbeType)
-  public func getOxi1001Info(type: AUProbeType = .None)
+  public func setAlarmLimit(alarmLimit: AUOximeter.AUOximeterAlarmLimit)
+  public func setProbeType(_ type: AUOximeter.AUProbeType)
+  public func getOxi1001Info(type: AUOximeter.AUProbeType = .None)
   public func stopOxi1001Info()
   public func getRawData()
   public func stopRawData()
-  public func currentData() -> AUOximeterData?
+  public func currentData() -> AUOximeter.AUOximeterData?
 }
 public protocol AUOximeterDataDelegate {
-  func didSMConnect(device: AUOximeter)
-  func didSMPowerOff(device: AUOximeter)
-  func notifyInfo(device: AUOximeter, info: AUOximeterData)
-  func notifyAlarmLimit(device: AUOximeter, alarmLimit: AUOximeterAlarmLimit)
-  func notifyRawData(device: AUOximeter, rawData: AUOximeterRawData)
+  func didSMConnect(device: AUOximeter.AUOximeter)
+  func didSMPowerOff(device: AUOximeter.AUOximeter)
+  func notifyInfo(device: AUOximeter.AUOximeter, info: AUOximeter.AUOximeterData)
+  func notifyAlarmLimit(device: AUOximeter.AUOximeter, alarmLimit: AUOximeter.AUOximeterAlarmLimit)
+  func notifyRawData(device: AUOximeter.AUOximeter, rawData: AUOximeter.AUOximeterRawData)
 }
-extension BLEStatus : Swift.Equatable {}
-extension BLEStatus : Swift.Hashable {}
-extension BLEStatus : Swift.RawRepresentable {}
-extension SystemStatus : Swift.Equatable {}
-extension SystemStatus : Swift.Hashable {}
-extension BatteryStatus : Swift.Equatable {}
-extension BatteryStatus : Swift.Hashable {}
-extension BatteryStatus : Swift.RawRepresentable {}
-extension AUSensorType : Swift.Equatable {}
-extension AUSensorType : Swift.Hashable {}
-extension AUSensorType : Swift.RawRepresentable {}
-extension AUSensorGeneration : Swift.Equatable {}
-extension AUSensorGeneration : Swift.Hashable {}
-extension AUSensorGeneration : Swift.RawRepresentable {}
-extension AUProbeType : Swift.Equatable {}
-extension AUProbeType : Swift.Hashable {}
-extension AUProbeType : Swift.RawRepresentable {}
+extension AUOximeter.BLEStatus : Swift.Equatable {}
+extension AUOximeter.BLEStatus : Swift.Hashable {}
+extension AUOximeter.BLEStatus : Swift.RawRepresentable {}
+extension AUOximeter.SystemStatus : Swift.Equatable {}
+extension AUOximeter.SystemStatus : Swift.Hashable {}
+extension AUOximeter.BatteryStatus : Swift.Equatable {}
+extension AUOximeter.BatteryStatus : Swift.Hashable {}
+extension AUOximeter.BatteryStatus : Swift.RawRepresentable {}
+extension AUOximeter.AUSensorType : Swift.Equatable {}
+extension AUOximeter.AUSensorType : Swift.Hashable {}
+extension AUOximeter.AUSensorType : Swift.RawRepresentable {}
+extension AUOximeter.AUSensorGeneration : Swift.Equatable {}
+extension AUOximeter.AUSensorGeneration : Swift.Hashable {}
+extension AUOximeter.AUSensorGeneration : Swift.RawRepresentable {}
+extension AUOximeter.AUProbeType : Swift.Equatable {}
+extension AUOximeter.AUProbeType : Swift.Hashable {}
+extension AUOximeter.AUProbeType : Swift.RawRepresentable {}
