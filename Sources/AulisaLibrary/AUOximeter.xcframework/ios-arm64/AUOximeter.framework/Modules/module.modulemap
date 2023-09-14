@@ -1,7 +1,7 @@
 framework module AUOximeter {
   umbrella header "AUOximeter.h"
-
   export *
+
   module * { export * }
 }
 
