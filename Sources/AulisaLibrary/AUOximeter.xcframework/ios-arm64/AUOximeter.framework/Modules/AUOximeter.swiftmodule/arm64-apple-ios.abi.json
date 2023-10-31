@@ -9884,7 +9884,7 @@
       "kind": "IntegerLiteral",
       "offset": 546,
       "length": 2,
-      "value": "34"
+      "value": "32"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
@@ -10057,357 +10057,357 @@
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "StringLiteral",
-      "offset": 3217,
+      "offset": 3274,
       "length": 6,
       "value": "\"%.1f\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "IntegerLiteral",
-      "offset": 3239,
+      "offset": 3296,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "IntegerLiteral",
-      "offset": 3243,
+      "offset": 3300,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "IntegerLiteral",
-      "offset": 3247,
+      "offset": 3304,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "StringLiteral",
-      "offset": 3388,
+      "offset": 3516,
       "length": 5,
       "value": "\"°C\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "StringLiteral",
-      "offset": 3477,
+      "offset": 3605,
       "length": 5,
       "value": "\"°F\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "StringLiteral",
-      "offset": 3508,
+      "offset": 3636,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "IntegerLiteral",
-      "offset": 3570,
+      "offset": 3698,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "IntegerLiteral",
-      "offset": 3594,
+      "offset": 3722,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "IntegerLiteral",
-      "offset": 3648,
+      "offset": 3776,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "StringLiteral",
-      "offset": 3716,
+      "offset": 3844,
       "length": 106,
       "value": "\"AUTemperatureData : [Temperature : \""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "StringLiteral",
-      "offset": 3766,
+      "offset": 3894,
       "length": 1,
       "value": "\",systemState :\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "StringLiteral",
-      "offset": 3794,
+      "offset": 3922,
       "length": 1,
       "value": "\",alarmBits :\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "StringLiteral",
-      "offset": 3818,
+      "offset": 3946,
       "length": 1,
       "value": "\" ] \""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "StringLiteral",
-      "offset": 3891,
+      "offset": 4019,
       "length": 16,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "StringLiteral",
-      "offset": 3906,
+      "offset": 4034,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "StringLiteral",
-      "offset": 4085,
+      "offset": 4213,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "FloatLiteral",
-      "offset": 4507,
+      "offset": 4635,
       "length": 4,
       "value": "37.4"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "FloatLiteral",
-      "offset": 4514,
+      "offset": 4642,
       "length": 4,
       "value": "37.0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "FloatLiteral",
-      "offset": 4632,
+      "offset": 4760,
       "length": 4,
       "value": "34.6"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "FloatLiteral",
-      "offset": 4639,
+      "offset": 4767,
       "length": 4,
       "value": "35.1"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "IntegerLiteral",
-      "offset": 4704,
+      "offset": 4832,
       "length": 2,
       "value": "42"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "IntegerLiteral",
-      "offset": 4761,
+      "offset": 4889,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "IntegerLiteral",
-      "offset": 4818,
+      "offset": 4946,
       "length": 2,
       "value": "42"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "IntegerLiteral",
-      "offset": 4875,
+      "offset": 5003,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "IntegerLiteral",
-      "offset": 5671,
+      "offset": 5799,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "IntegerLiteral",
-      "offset": 5730,
+      "offset": 5858,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "StringLiteral",
-      "offset": 5877,
+      "offset": 6005,
       "length": 3,
       "value": "\"(\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "StringLiteral",
-      "offset": 5915,
+      "offset": 6043,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "StringLiteral",
-      "offset": 5921,
+      "offset": 6049,
       "length": 14,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "StringLiteral",
-      "offset": 5934,
+      "offset": 6062,
       "length": 5,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "StringLiteral",
-      "offset": 5952,
+      "offset": 6080,
       "length": 3,
       "value": "\":\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "StringLiteral",
-      "offset": 5989,
+      "offset": 6117,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "StringLiteral",
-      "offset": 5997,
+      "offset": 6125,
       "length": 13,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "StringLiteral",
-      "offset": 6009,
+      "offset": 6137,
       "length": 5,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "StringLiteral",
-      "offset": 6027,
+      "offset": 6155,
       "length": 3,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "StringLiteral",
-      "offset": 6123,
+      "offset": 6251,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "StringLiteral",
-      "offset": 6129,
+      "offset": 6257,
       "length": 14,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "StringLiteral",
-      "offset": 6142,
+      "offset": 6270,
       "length": 5,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "StringLiteral",
-      "offset": 6160,
+      "offset": 6288,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "StringLiteral",
-      "offset": 6197,
+      "offset": 6325,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "StringLiteral",
-      "offset": 6205,
+      "offset": 6333,
       "length": 13,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "StringLiteral",
-      "offset": 6217,
+      "offset": 6345,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "StringLiteral",
-      "offset": 6452,
+      "offset": 6580,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "IntegerLiteral",
-      "offset": 6485,
+      "offset": 6613,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "IntegerLiteral",
-      "offset": 6568,
+      "offset": 6696,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "IntegerLiteral",
-      "offset": 6575,
+      "offset": 6703,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "IntegerLiteral",
-      "offset": 6603,
+      "offset": 6731,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "IntegerLiteral",
-      "offset": 6652,
+      "offset": 6780,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "IntegerLiteral",
-      "offset": 6659,
+      "offset": 6787,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/AUTempData.swift",
       "kind": "IntegerLiteral",
-      "offset": 6687,
+      "offset": 6815,
       "length": 1,
       "value": "1"
     },
