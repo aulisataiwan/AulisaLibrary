@@ -303,6 +303,7 @@ public protocol AUThermometerDataDelegate {
   public func getOxi1001Info(type: AUOximeter.AUProbeType = .None)
   public func stopOxi1001Info()
   public func getRawData()
+  public func getRawData(isReverse: Swift.Bool)
   public func stopRawData()
   public func currentData() -> AUOximeter.AUOximeterData?
 }
