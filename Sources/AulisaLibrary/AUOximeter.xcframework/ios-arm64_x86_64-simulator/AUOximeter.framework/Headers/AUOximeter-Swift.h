@@ -305,6 +305,13 @@ SWIFT_CLASS("_TtC10AUOximeter8AUDevice")
 @end
 
 
+SWIFT_CLASS("_TtC10AUOximeter11AUECGDevice")
+@interface AUECGDevice : AUDevice
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
 SWIFT_CLASS("_TtC10AUOximeter10AUOximeter")
 @interface AUOximeter : AUDevice
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -630,6 +637,13 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 SWIFT_CLASS("_TtC10AUOximeter8AUDevice")
 @interface AUDevice : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC10AUOximeter11AUECGDevice")
+@interface AUECGDevice : AUDevice
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 

@@ -305,6 +305,13 @@ SWIFT_CLASS("_TtC10AUOximeter8AUDevice")
 @end
 
 
+SWIFT_CLASS("_TtC10AUOximeter11AUECGDevice")
+@interface AUECGDevice : AUDevice
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
 SWIFT_CLASS("_TtC10AUOximeter10AUOximeter")
 @interface AUOximeter : AUDevice
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;

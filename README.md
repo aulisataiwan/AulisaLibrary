@@ -14,6 +14,14 @@
   - [AUThremometerDataDelegate](#authermometerdatadelegate)
   - [AUTemperatureData](#autemperaturedata)
   - [AUTemperatureAlarmLimit](#autemperaturealarmlimit)
+- [**ECG Usage**](#ecg-usage)
+  - [Connection](#connection-2)
+  - [AUECGDevice](#auecgdevice)
+  - [AUECGDataDelegate](#auecgdatadelegate)
+  - [AUECGData](#auecgdata)
+  - [AUECGAlarmLimit](#auecglimit)
+  - [AUECGRawData](#auecgrawdata)
+
 
 - [**Example**](#example)
 
@@ -321,6 +329,14 @@ And wait for
     public var tempLow : Double?
 
 If any variable is nil , it means that alarm limit is off <br><br>
+
+# ECG Usage
+## Connection 
+## AUECGDevice
+## AUECGDataDelegate
+## AUECGData
+## AUECGAlarmLimit
+## AUECGRawData
 
 
 # Example
