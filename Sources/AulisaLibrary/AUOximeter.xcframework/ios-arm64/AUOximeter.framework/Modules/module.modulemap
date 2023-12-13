@@ -1,8 +1,12 @@
 framework module AUOximeter {
-  umbrella header "AUOximeter.h"
-  export *
+    umbrella header "AUOximeter.h"
+    export *
+    module * { export * }
 
-  module * { export * }
+    explicit module ECGAlgorithm  {
+      header "bridge.hpp"
+      export *
+    }
 }
 
 module AUOximeter.Swift {
