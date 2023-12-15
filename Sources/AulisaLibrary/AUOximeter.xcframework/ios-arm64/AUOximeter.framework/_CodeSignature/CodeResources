@@ -18,15 +18,15 @@
 		</data>
 		<key>Modules/AUOximeter.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		VGgOzEYm/OOf5RLeZbZ/NdS3fgA=
+		V+BL5oY2or/twQYrtvnUp+QxUd4=
 		</data>
 		<key>Modules/AUOximeter.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		53DBxlFt1R3gin2Y2J1TSLiRAJA=
+		EZC3I4DeNe596gc2CQdBhwDxBIY=
 		</data>
 		<key>Modules/AUOximeter.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		5YCJIVr95j982IPP12rWtAz6kBI=
+		kIbRZw5T7CG6oX8KcwvSrqKWFZ0=
 		</data>
 		<key>Modules/AUOximeter.swiftmodule/arm64-apple-ios.private.swiftinterface-e</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/AUOximeter.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		5YCJIVr95j982IPP12rWtAz6kBI=
+		kIbRZw5T7CG6oX8KcwvSrqKWFZ0=
 		</data>
 		<key>Modules/AUOximeter.swiftmodule/arm64-apple-ios.swiftinterface-e</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/AUOximeter.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		viz00BAHE7+gJE/iR3jfefd/9T8=
+		R8NqXYHUA3gKPXBCsa9um3+RqAI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -85,33 +85,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VGgOzEYm/OOf5RLeZbZ/NdS3fgA=
+			V+BL5oY2or/twQYrtvnUp+QxUd4=
 			</data>
 			<key>hash2</key>
 			<data>
-			VlmGtnHeaT4Bk0iydrKknmIxFzioAxHbp+jU8WvpFZA=
+			d08zjHqoaLw+jR1tL+u8Eama2qz+2sXskSyAYtWiUOk=
 			</data>
 		</dict>
 		<key>Modules/AUOximeter.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			53DBxlFt1R3gin2Y2J1TSLiRAJA=
+			EZC3I4DeNe596gc2CQdBhwDxBIY=
 			</data>
 			<key>hash2</key>
 			<data>
-			EKDs2J9PEdpIKsI6ONObKkNRudlSP+/4K7PKSDkjtOY=
+			f4M2vOoauQPYmTibQzdzpJnOBnMMeRkT4R8w+e+65gY=
 			</data>
 		</dict>
 		<key>Modules/AUOximeter.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5YCJIVr95j982IPP12rWtAz6kBI=
+			kIbRZw5T7CG6oX8KcwvSrqKWFZ0=
 			</data>
 			<key>hash2</key>
 			<data>
-			eOEgfOK9cnRQa052KXbYGH5JPKAMq+SVNthGyQPXkZo=
+			tTeG7ahx/vl9e7y9PrUIj5X5kvcR9fn70PGWl7z1ozw=
 			</data>
 		</dict>
 		<key>Modules/AUOximeter.swiftmodule/arm64-apple-ios.private.swiftinterface-e</key>
@@ -140,11 +140,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5YCJIVr95j982IPP12rWtAz6kBI=
+			kIbRZw5T7CG6oX8KcwvSrqKWFZ0=
 			</data>
 			<key>hash2</key>
 			<data>
-			eOEgfOK9cnRQa052KXbYGH5JPKAMq+SVNthGyQPXkZo=
+			tTeG7ahx/vl9e7y9PrUIj5X5kvcR9fn70PGWl7z1ozw=
 			</data>
 		</dict>
 		<key>Modules/AUOximeter.swiftmodule/arm64-apple-ios.swiftinterface-e</key>
@@ -162,11 +162,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			viz00BAHE7+gJE/iR3jfefd/9T8=
+			R8NqXYHUA3gKPXBCsa9um3+RqAI=
 			</data>
 			<key>hash2</key>
 			<data>
-			nQqq5EIiCCZ5olYGQ1EpHuSjpE6hG1rmTxCB7ZNKwS8=
+			gEoc43qvTrXHT05KVzW1epuWuXGaznsIn+9ZeMjy2Ws=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

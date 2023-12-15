@@ -4055,6 +4055,27 @@
             ]
           },
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AUECGAlarmLimit",
+                "printedName": "AUOximeter.AUECGAlarmLimit",
+                "usr": "s:10AUOximeter15AUECGAlarmLimitC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10AUOximeter15AUECGAlarmLimitCACycfc",
+            "mangledName": "$s10AUOximeter15AUECGAlarmLimitCACycfc",
+            "moduleName": "AUOximeter",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "==",
             "printedName": "==(_:_:)",
@@ -4118,7 +4139,6 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true,
         "conformances": [
           {
             "kind": "Conformance",
@@ -13071,140 +13091,140 @@
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/ECG\/AUECGData.swift",
       "kind": "IntegerLiteral",
-      "offset": 5957,
+      "offset": 5996,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/ECG\/AUECGData.swift",
       "kind": "IntegerLiteral",
-      "offset": 5998,
+      "offset": 6037,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/ECG\/AUECGData.swift",
       "kind": "IntegerLiteral",
-      "offset": 6038,
+      "offset": 6077,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/ECG\/AUECGData.swift",
       "kind": "IntegerLiteral",
-      "offset": 6075,
+      "offset": 6114,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/ECG\/AUECGData.swift",
       "kind": "Array",
-      "offset": 6125,
+      "offset": 6164,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/ECG\/AUECGData.swift",
       "kind": "IntegerLiteral",
-      "offset": 6159,
+      "offset": 6198,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/ECG\/AUECGData.swift",
       "kind": "IntegerLiteral",
-      "offset": 6256,
+      "offset": 6295,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/ECG\/AUECGData.swift",
       "kind": "StringLiteral",
-      "offset": 6331,
+      "offset": 6370,
       "length": 5,
       "value": "\"ECG\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/ECG\/AUECGData.swift",
       "kind": "StringLiteral",
-      "offset": 6385,
+      "offset": 6424,
       "length": 5,
       "value": "\"PPG\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/ECG\/AUECGData.swift",
       "kind": "StringLiteral",
-      "offset": 6438,
+      "offset": 6477,
       "length": 4,
       "value": "\"BR\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/ECG\/AUECGData.swift",
       "kind": "StringLiteral",
-      "offset": 6480,
+      "offset": 6519,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/ECG\/AUECGData.swift",
       "kind": "IntegerLiteral",
-      "offset": 6615,
+      "offset": 6654,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/ECG\/AUECGData.swift",
       "kind": "StringLiteral",
-      "offset": 8458,
+      "offset": 8497,
       "length": 75,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/ECG\/AUECGData.swift",
       "kind": "StringLiteral",
-      "offset": 8472,
+      "offset": 8511,
       "length": 1,
       "value": "\"\t\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/ECG\/AUECGData.swift",
       "kind": "StringLiteral",
-      "offset": 8483,
+      "offset": 8522,
       "length": 1,
       "value": "\"\t\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/ECG\/AUECGData.swift",
       "kind": "StringLiteral",
-      "offset": 8492,
+      "offset": 8531,
       "length": 1,
       "value": "\"\t\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/ECG\/AUECGData.swift",
       "kind": "StringLiteral",
-      "offset": 8505,
+      "offset": 8544,
       "length": 1,
       "value": "\"\t\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/ECG\/AUECGData.swift",
       "kind": "StringLiteral",
-      "offset": 8513,
+      "offset": 8552,
       "length": 1,
       "value": "\"\t\""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/ECG\/AUECGData.swift",
       "kind": "StringLiteral",
-      "offset": 8521,
+      "offset": 8560,
       "length": 1,
       "value": "\"\t \""
     },
     {
       "filePath": "\/Users\/li\/Transcend\/Documents\/ios_lib_oxi\/AUOximeter\/ECG\/AUECGData.swift",
       "kind": "StringLiteral",
-      "offset": 8532,
+      "offset": 8571,
       "length": 1,
       "value": "\"\""
     },

@@ -159,11 +159,12 @@ public class AUECGData {
   public func clear()
   @objc deinit
 }
-@_hasMissingDesignatedInitializers public class AUECGAlarmLimit : Swift.Equatable {
+public class AUECGAlarmLimit : Swift.Equatable {
   public var rrHigh: Swift.Int?
   public var rrLow: Swift.Int?
   public var hrHigh: Swift.Int?
   public var hrLow: Swift.Int?
+  public init()
   public static func == (lhs: AUOximeter.AUECGAlarmLimit, rhs: AUOximeter.AUECGAlarmLimit) -> Swift.Bool
   public func isAlarmMute() -> Swift.Bool
   @objc deinit
