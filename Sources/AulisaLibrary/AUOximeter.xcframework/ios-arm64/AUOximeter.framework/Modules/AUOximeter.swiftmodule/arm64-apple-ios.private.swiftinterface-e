@@ -151,7 +151,7 @@ public class AUECGData {
   public func isNoneValueData() -> Swift.Bool
   public func isECGOff() -> Swift.Bool
   public func isPPGOff() -> Swift.Bool
-  public func isSensoroff() -> Swift.Bool
+  public func isSensorOff() -> Swift.Bool
   public func isRRHigh() -> Swift.Bool
   public func isRRLow() -> Swift.Bool
   public func isHRHigh() -> Swift.Bool
@@ -165,15 +165,28 @@ public class AUECGAlarmLimit : Swift.Equatable {
   public var hrHigh: Swift.Int?
   public var hrLow: Swift.Int?
   public init()
+  public static let DEFAULT_RR_MAX: Swift.Int
+  public static let DEFAULT_RR_MIN: Swift.Int
+  public static let DEFAULT_HR_MAX: Swift.Int
+  public static let DEFAULT_HR_MIN: Swift.Int
+  public static let DEFAULT_RR_MAX_HI: Swift.Int
+  public static let DEFAULT_RR_MAX_LO: Swift.Int
+  public static let DEFAULT_RR_MIN_HI: Swift.Int
+  public static let DEFAULT_RR_MIN_LO: Swift.Int
+  public static let DEFAULT_HR_MAX_HI: Swift.Int
+  public static let DEFAULT_HR_MAX_LO: Swift.Int
+  public static let DEFAULT_HR_MIN_HI: Swift.Int
+  public static let DEFAULT_HR_MIN_LO: Swift.Int
   public static func == (lhs: AUOximeter.AUECGAlarmLimit, rhs: AUOximeter.AUECGAlarmLimit) -> Swift.Bool
   public func isAlarmMute() -> Swift.Bool
+  public static func defaultAlarm() -> AUOximeter.AUECGAlarmLimit
   @objc deinit
 }
 public class AUECGRawData {
   public static let WAVE_FORM_ECG: Swift.Int
   public static let WAVE_FORM_PPG: Swift.Int
   public static let WAVE_FORM_BR: Swift.Int
-  public var dataList: [Swift.Int] {
+  public var dataList: [Swift.Double] {
     get
   }
   public static func getWaveFormLabel(type: Swift.Int) -> Swift.String
@@ -440,6 +453,7 @@ public protocol AUOximeterDataDelegate {
   }
   public var delegate: (any AUOximeter.AUECGDataDelegate)?
   public var version: Swift.String
+  public var bleVersion: Swift.String
   public var waveForm: Swift.Int {
     get
   }

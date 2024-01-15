@@ -14,7 +14,7 @@ extern "C" {
 #endif
 
 void CPPAnalysis(int beginning_point, float* waveform, int* beat_location, int length, char* beat_type_array, int interpretation);
-int test(int hi);
+void pythonTest();
 
 #ifdef __cplusplus
 }
