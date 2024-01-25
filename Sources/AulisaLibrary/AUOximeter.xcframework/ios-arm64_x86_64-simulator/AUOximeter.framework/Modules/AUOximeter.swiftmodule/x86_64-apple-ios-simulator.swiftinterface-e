@@ -1,10 +1,9 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
 // swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AUOximeter
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 @_exported import AUOximeter
 import CoreBluetooth
-import AUOximeter.ECGAlgorithm
 import Foundation
 import Swift
 import UIKit
@@ -108,115 +107,9 @@ public class AUOximeterRawData {
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class AUDevice : ObjectiveC.NSObject {
-  public static let UUID_S_Aulisa: Swift.String
-  public static let UUID_C_Write: Swift.String
-  public static let UUID_C_Notify: Swift.String
   public static func macAddressToSMType(macAddress: Swift.String) -> AUOximeter.AUSensorType
   public static func macAddressToSMGeneration(macAddress: Swift.String) -> AUOximeter.AUSensorGeneration
   @objc override dynamic public init()
-  @objc deinit
-}
-public class AUECGData {
-  public var RR: Swift.Int {
-    get
-  }
-  public var HR: Swift.Int {
-    get
-  }
-  public var batteryStatus: AUOximeter.BatteryStatus {
-    get
-  }
-  public var systemState: Swift.Int {
-    get
-  }
-  public var fallDownState: Swift.Int {
-    get
-  }
-  public var SinusTachycardia: Swift.Bool {
-    get
-  }
-  public var SinusBradycardia: Swift.Bool {
-    get
-  }
-  public var SinusArrhythmia: Swift.Bool {
-    get
-  }
-  public var AtrialFibrillation: Swift.Bool {
-    get
-  }
-  public init()
-  public func set(rawData: [Swift.CUnsignedChar]) -> Swift.Bool
-  public func isPowerOff() -> Swift.Bool
-  public func isInvalidData() -> Swift.Bool
-  public func isNoneValueData() -> Swift.Bool
-  public func isECGOff() -> Swift.Bool
-  public func isPPGOff() -> Swift.Bool
-  public func isSensorOff() -> Swift.Bool
-  public func isRRHigh() -> Swift.Bool
-  public func isRRLow() -> Swift.Bool
-  public func isHRHigh() -> Swift.Bool
-  public func isHRLow() -> Swift.Bool
-  public func clear()
-  @objc deinit
-}
-public class AUECGAlarmLimit : Swift.Equatable {
-  public var rrHigh: Swift.Int?
-  public var rrLow: Swift.Int?
-  public var hrHigh: Swift.Int?
-  public var hrLow: Swift.Int?
-  public init()
-  public static let DEFAULT_RR_MAX: Swift.Int
-  public static let DEFAULT_RR_MIN: Swift.Int
-  public static let DEFAULT_HR_MAX: Swift.Int
-  public static let DEFAULT_HR_MIN: Swift.Int
-  public static let DEFAULT_RR_MAX_HI: Swift.Int
-  public static let DEFAULT_RR_MAX_LO: Swift.Int
-  public static let DEFAULT_RR_MIN_HI: Swift.Int
-  public static let DEFAULT_RR_MIN_LO: Swift.Int
-  public static let DEFAULT_HR_MAX_HI: Swift.Int
-  public static let DEFAULT_HR_MAX_LO: Swift.Int
-  public static let DEFAULT_HR_MIN_HI: Swift.Int
-  public static let DEFAULT_HR_MIN_LO: Swift.Int
-  public static func == (lhs: AUOximeter.AUECGAlarmLimit, rhs: AUOximeter.AUECGAlarmLimit) -> Swift.Bool
-  public func isAlarmMute() -> Swift.Bool
-  public static func defaultAlarm() -> AUOximeter.AUECGAlarmLimit
-  @objc deinit
-}
-public class AUECGRawData {
-  public static let WAVE_FORM_ECG: Swift.Int
-  public static let WAVE_FORM_PPG: Swift.Int
-  public static let WAVE_FORM_BR: Swift.Int
-  public var dataList: [Swift.Double] {
-    get
-  }
-  public static func getWaveFormLabel(type: Swift.Int) -> Swift.String
-  public init(data: [Swift.Int])
-  public func getCount() -> Swift.Int
-  @objc deinit
-}
-@_hasMissingDesignatedInitializers public class AUECGAAMIData {
-  public var timeString: Swift.String {
-    get
-  }
-  public var sample: Swift.Int {
-    get
-  }
-  public var type: Swift.String {
-    get
-  }
-  public var sub_chan: Swift.Int {
-    get
-  }
-  public var num: Swift.Int {
-    get
-  }
-  public var aux: Swift.Int {
-    get
-  }
-  public var index: Swift.Int {
-    get
-  }
-  public func toString() -> Swift.String
   @objc deinit
 }
 public enum BLEStatus : Swift.Int {
@@ -287,32 +180,6 @@ public enum AUProbeType : Swift.Int {
     get
   }
 }
-@_hasMissingDesignatedInitializers public class AUECGAnalysisManager {
-  public static let shared: AUOximeter.AUECGAnalysisManager
-  public var delegate: (any AUOximeter.AUECGAnalysisResultDelegate)?
-  public func clear()
-  public func addRawData(rawData: AUOximeter.AUECGRawData)
-  public func addAAMIData(aamiData: AUOximeter.AUECGAAMIData)
-  @objc deinit
-}
-public protocol AUECGAnalysisResultDelegate {
-  func notifyAnalysisResult(beginningPoint: Swift.Int, result: AUOximeter.AUECGAnalysisResult)
-}
-@_hasMissingDesignatedInitializers public class AUECGAnalysisResult {
-  public var beatLocationArray: [Swift.Int] {
-    get
-  }
-  public var beatTypeArray: [Swift.CUnsignedChar] {
-    get
-  }
-  public var interpretation: Swift.Int {
-    get
-  }
-  public var count: Swift.Int {
-    get
-  }
-  @objc deinit
-}
 public class AUTemperatureData {
   public static let SCALE_CELSIUS: Swift.Int
   public static let SCALE_FAHRENHEIT: Swift.Int
@@ -373,6 +240,9 @@ extension AUOximeter.AUTemperatureAlarmLimit {
   public static func stringToAlarmLimit(_ alarmString: Swift.String) -> AUOximeter.AUTemperatureAlarmLimit?
 }
 @objc public class AUThermometer : AUOximeter.AUDevice {
+  public static let UUID_S_Aulisa: Swift.String
+  public static let UUID_C_Write: Swift.String
+  public static let UUID_C_Notify: Swift.String
   public var macAddress: Swift.String! {
     get
   }
@@ -399,6 +269,9 @@ public protocol AUThermometerDataDelegate {
   func notifyAlarmLimit(device: AUOximeter.AUThermometer, alarmLimit: AUOximeter.AUTemperatureAlarmLimit)
 }
 @objc public class AUOximeter : AUOximeter.AUDevice {
+  public static let UUID_S_Aulisa: Swift.String
+  public static let UUID_C_Write: Swift.String
+  public static let UUID_C_Notify: Swift.String
   public var macAddress: Swift.String! {
     get
   }
@@ -440,38 +313,6 @@ public protocol AUOximeterDataDelegate {
   func notifyInfo(device: AUOximeter.AUOximeter, info: AUOximeter.AUOximeterData)
   func notifyAlarmLimit(device: AUOximeter.AUOximeter, alarmLimit: AUOximeter.AUOximeterAlarmLimit)
   func notifyRawData(device: AUOximeter.AUOximeter, rawData: AUOximeter.AUOximeterRawData)
-}
-@objc public class AUECGDevice : AUOximeter.AUDevice {
-  public var macAddress: Swift.String! {
-    get
-  }
-  public var pheripheral: CoreBluetooth.CBPeripheral? {
-    get
-  }
-  public var alarmLimit: AUOximeter.AUECGAlarmLimit! {
-    get
-  }
-  public var delegate: (any AUOximeter.AUECGDataDelegate)?
-  public var version: Swift.String
-  public var bleVersion: Swift.String
-  public var waveForm: Swift.Int {
-    get
-  }
-  public init(peripheral: CoreBluetooth.CBPeripheral, macAddress: Swift.String)
-  @objc deinit
-  public func isConnected() -> Swift.Bool
-  public func isPowerOff() -> Swift.Bool
-  public func setAlarmLimit(alarmLimit: AUOximeter.AUECGAlarmLimit)
-  public func changeWaveForm()
-  public func currentData() -> AUOximeter.AUECGData?
-}
-public protocol AUECGDataDelegate {
-  func didSMConnect(device: AUOximeter.AUECGDevice)
-  func didSMPowerOff(device: AUOximeter.AUECGDevice)
-  func notifyInfo(device: AUOximeter.AUECGDevice, info: AUOximeter.AUECGData)
-  func notifyAlarmLimit(device: AUOximeter.AUECGDevice, alarmLimit: AUOximeter.AUECGAlarmLimit)
-  func notifyRawData(device: AUOximeter.AUECGDevice, rawData: AUOximeter.AUECGRawData)
-  func notifyAAMIData(device: AUOximeter.AUECGDevice, aamiData: AUOximeter.AUECGAAMIData)
 }
 extension AUOximeter.BLEStatus : Swift.Equatable {}
 extension AUOximeter.BLEStatus : Swift.Hashable {}
